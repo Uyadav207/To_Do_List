@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+  Second Page
+{% endblock %}
+
+{% block body %}
+<p>
+        No internet
+        Try:
+        
+        Checking the network cables, modem, and router
+        Reconnecting to Wi-Fi
+        Running Windows Network Diagnostics
+        ERR_INTERNET_DISCONNECTED
+        
+</p>
+
+<a href="{{url_for('index')}}">Go Back</a>
+{% endblock %}
+
